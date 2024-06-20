@@ -68,7 +68,7 @@ input{
     border-radius: 4px;
     box-sizing: border-box;
     font-size: medium;
-    outline-style: outset;
+    outline-style: none;
   }
 input:invalid:focus, input:invalid{
     border-color: red;
