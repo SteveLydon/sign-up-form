@@ -49,11 +49,11 @@
                 <fieldset>
                     <div class="form-div">
                         <label for="password1">*Password</label>
-                        <input type="password" id="password1" minlength="8" required>
+                        <input type="password" id="password1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     </div>
                     <div class="form-div">
                         <label for="password2">*Password Confirmation</label>
-                        <input type="password" id="password2" minlength="8" required>
+                        <input type="password" id="password2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     </div>
                 </fieldset>
             </form>
